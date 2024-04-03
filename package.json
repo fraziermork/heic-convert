@@ -1,0 +1,16 @@
+{
+  "name": "heic-convert",
+  "version": "0.1.0",
+  "description": "command line util to convert .HEIC files to .jpg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "heic-convert": "^2.1.0"
+  }
+}
