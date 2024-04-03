@@ -1,0 +1,22 @@
+{
+  "name": "heic-convert",
+  "version": "0.1.0",
+  "description": "command line util to convert .HEIC files to .jpg",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node index.js"
+  },
+  "bin": {
+    "heic-convert": "./index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "heic-convert": "^2.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
